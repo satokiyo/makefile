@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  sample:
+    container_name: sample
+    image: ubuntu_python:sample_0.0.1
+    restart: always
+    tty: true
+    # environment:
+    #   - PLATFORM=docker_compose
+    # ports:
+    #   - "8000:8000"
+    volumes:
+      - ./workspace:/sample/workspace
+    # entrypoint: []
+    # command: ['python -c "import __future__, sys; print(sys.platform)"']
+

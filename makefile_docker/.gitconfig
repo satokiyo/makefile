@@ -1,0 +1,45 @@
+# ~/.gitconfig
+
+[user]
+name  = satokiyo
+email = k.sato.ontology@gmail.com
+
+[color]
+ui = true
+
+#[alias]
+#st = status
+#df = diff
+#co = commit
+#br = branch
+#ps = push
+#pl = pull
+#ck = checkout
+#graph = log --pretty=format:'%Cgreen[%cd] %Cblue%h %Cred<%cn> %Creset%s' --date=short  --decorate --graph --branches --tags --remotes
+#diffw = diff --word-diff
+
+[push]
+#default = current
+default = simple
+
+#[pull]
+#ff = only
+#rebase = false
+
+[init]
+defaultBranch = main
+
+[core]
+quotepath  = false
+autocrlf   = false
+ignorecase = false
+fileMode   = false
+editor     = vi
+
+#[credential]
+#helper = osxkeychain
+
+# [http]
+# proxy = http://proxy.example.com:8080
+# [https]
+# proxy = http://proxy.example.com:8080
